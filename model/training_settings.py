@@ -3,10 +3,9 @@ import keying_stats as ks
 training_settings = {
     # signal properties
     'snr': {'low': -16, 'high': 50},
-    'wpm': {'low':8, 'high':50},
+    'wpm': {'low':12, 'high':48},
     'doppler_spread': {'low':0.1, 'high':3},    
     'keying_style': [[ks.KeyingStyle.HandKey, ks.KeyingStyle.Paddle, ks.KeyingStyle.Computer], [0.25,0.5,0.25]], 
-    # 'keying_style': ks.KeyingStyle.Paddle,
     'pitch_error': {'low':-30, 'high':30},
     'noise_floor': {'low':-20, 'high':20},
     
